@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import './variables.scss';
+@import './mixin.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html {
+    font-size: 13px;
+}
+
+
+
+body {
+    font-family: "Roboto";
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+@each $color,
+$val in $colors {
+    .color-#{$color} {
+        color: $val;
+    }
+
+    .bg-#{$color} {
+        background-color: $val;
+    }
+}
+
+@each $val in $numbers {
+    .grid-col-#{$val} {
+        grid-template-columns: repeat($val, 1fr)
+    }
+}
+
+
+.main {
+    margin-top: $header-height;
+    margin-bottom: 2rem;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1620px;
+    padding: 0 50px;
+    margin: auto;
+}
+
+@include mobile {
+    padding: 0;
+}
+
+@include tablet {
+    margin-top: calc(#{$header-tablet-height}+20px);
+}
+
+;
+
+@include mobile {
+    margin-top: calc(#{$header-mobile-height}+10px);
+}
