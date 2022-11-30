@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Project-Reactjs/static/css/main.ea05e92a.css",
+    "main.js": "/Project-Reactjs/static/js/main.cc80e8f3.js",
+    "static/js/651.40e76c9b.chunk.js": "/Project-Reactjs/static/js/651.40e76c9b.chunk.js",
+    "static/media/boxicons.svg": "/Project-Reactjs/static/media/boxicons.045b05bf2dc119267a90.svg",
+    "static/media/boxicons.eot": "/Project-Reactjs/static/media/boxicons.092b78589f3f53e60030.eot",
+    "static/media/boxicons.woff": "/Project-Reactjs/static/media/boxicons.0f4528cf3c75a4b361c0.woff",
+    "static/media/boxicons.ttf": "/Project-Reactjs/static/media/boxicons.cbd149c55e2396cb52e7.ttf",
+    "static/media/boxicons.woff2": "/Project-Reactjs/static/media/boxicons.8d765747a5588f36ff61.woff2",
+    "static/media/logo-pg.png": "/Project-Reactjs/static/media/logo-pg.dacd640bbb73231e794f.png",
+    "index.html": "/Project-Reactjs/index.html",
+    "main.ea05e92a.css.map": "/Project-Reactjs/static/css/main.ea05e92a.css.map",
+    "main.cc80e8f3.js.map": "/Project-Reactjs/static/js/main.cc80e8f3.js.map",
+    "651.40e76c9b.chunk.js.map": "/Project-Reactjs/static/js/651.40e76c9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea05e92a.css",
+    "static/js/main.cc80e8f3.js"
+  ]
+}
